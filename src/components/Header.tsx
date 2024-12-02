@@ -1,9 +1,10 @@
-import React, { Fragment } from "react";
-import { Popover, Transition } from "@headlessui/react";
-import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import { Link } from "react-scroll";
+import React, { Fragment } from 'react';
 
-import config from "../config/index.json";
+import { Popover, Transition } from '@headlessui/react';
+import { MenuIcon } from '@heroicons/react/outline';
+import { Link } from 'react-scroll';
+
+import config from '../config/index.json';
 
 const Menu = () => {
   const { navigation } = config;
@@ -31,9 +32,7 @@ const Menu = () => {
               <div className="flex items-center justify-between w-full md:w-auto">
                 {/* Mobile Menu Button */}
                 <div className="-mr-2 flex items-center md:hidden">
-                  <Popover.Button
-                    className="bg-background rounded-md p-1.5 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-secondary"
-                  >
+                  <Popover.Button className="bg-background rounded-md p-1.5 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-secondary">
                     <span className="sr-only">Open main menu</span>
                     <MenuIcon className="h-5 w-5" aria-hidden="true" />
                   </Popover.Button>
@@ -69,8 +68,7 @@ const Menu = () => {
           leave="duration-100 ease-in"
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95"
-        >
-        </Transition>
+        ></Transition>
       </Popover>
     </>
   );

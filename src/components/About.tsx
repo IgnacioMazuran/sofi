@@ -3,9 +3,8 @@ import React from 'react';
 import config from '../config/index.json';
 
 const About = () => {
-  const { company, about } = config;
+  const { company } = config;
   const { logo, name: companyName } = company;
-  const { socialMedia, sections } = about;
 
   return (
     <div
@@ -16,9 +15,7 @@ const About = () => {
         <div>
           <img src={logo} alt={companyName} className="w-12 h-12" />
         </div>
-        <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
-          
-        </div>
+        <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12"></div>
       </div>
     </div>
   );
