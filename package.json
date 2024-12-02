@@ -26,7 +26,7 @@
     "styled-jsx-plugin-postcss": "^4.0.1"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^12.0.0",
+    "@next/bundle-analyzer": "^12.3.4",
     "@types/node": "^16.11.6",
     "@types/react": "^17.0.33",
     "@typescript-eslint/eslint-plugin": "^4.32.0",
