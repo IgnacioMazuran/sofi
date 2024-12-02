@@ -1,24 +1,24 @@
 {
   "company": {
-    "name": "React landing page 2021",
-    "logo": "/assets/images/logo.png"
+    "name": "Felices dos años ❤",
+    "logo": "/assets/images/crown.png"
   },
   "navigation": [
     {
-      "name": "Product",
+      "name": "📸",
       "href": "product"
     },
     {
-      "name": "Features",
-      "href": "features"
+      "name": "😘",
+      "href": "product"
     },
 
     {
-      "name": "Pricing",
-      "href": "pricing"
+      "name": "💖",
+      "href": "product"
     },
     {
-      "name": "About",
+      "name": "✨",
       "href": "about"
     }
   ],
@@ -41,17 +41,117 @@
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "❤ Felices 2 años ❤",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
+        "title": "Algunos recuerdos 🌍✈️",
+        "description": "⭐ Nuestras primeras salidas",
+        "img": "/assets/images/pic1.jpg"
       },
       {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "title": "",
+        "description": "",
+        "img": "/assets/images/pic2.jpg"
+      },
+      {
+        "title": "",
+        "description": "",
+        "img": "/assets/images/pic3.jpg"
+      },
+      {
+        "title": "",
+        "description": "",
+        "img": "/assets/images/pic4.jpg"
+      },
+      {
+        "title": "",
+        "description": "",
+        "img": "/assets/images/pic5.jpg"
+      },
+      {
+        "title": "",
+        "description": "⭐ Buenos Aires",
+        "img": "/assets/images/pic6.jpg"
+      },
+      {
+        "title": "",
+        "description": "",
+        "img": "/assets/images/pic7.jpg"
+      },
+      {
+        "title": "",
+        "description": "",
+        "img": "/assets/images/pic8.jpg"
+      },
+      {
+        "title": "",
+        "description": "",
+        "img": "/assets/images/pic9.jpg"
+      },
+      {
+        "title": "",
+        "description": "⭐ Gesell",
+        "img": "/assets/images/pic10.jpg"
+      },
+      {
+        "title": "",
+        "description": "",
+        "img": "/assets/images/pic11.jpg"
+      },
+      {
+        "title": "",
+        "description": "",
+        "img": "/assets/images/pic12.jpg"
+      },
+      {
+        "title": "",
+        "description": "⭐ Cuando quisiste visitar el templo",
+        "img": "/assets/images/pic13.jpg"
+      },
+      {
+        "title": "",
+        "description": "",
+        "img": "/assets/images/pic14.jpg"
+      },
+      {
+        "title": "",
+        "description": "",
+        "img": "/assets/images/sanl1.jpeg"
+      },
+      {
+        "title": "",
+        "description": "",
+        "img": "/assets/images/sanl2.jpeg"
+      },
+      {
+        "title": "",
+        "description": "⭐ San Luis",
+        "img": "/assets/images/sanl3.jpeg"
+      },
+      {
+        "title": "",
+        "description": "",
+        "img": "/assets/images/sanl4.jpeg"
+      },
+      {
+        "title": "",
+        "description": "",
+        "img": "/assets/images/sanl5.jpeg"
+      },
+      {
+        "title": "",
+        "description": "",
+        "img": "/assets/images/sanl6.jpeg"
+      },
+      {
+        "title": "",
+        "description": "",
+        "img": "/assets/images/sanl7.jpeg"
+      },
+      {
+        "title": "",
+        "description": "",
+        "img": "/assets/images/cum.jpeg"
       }
     ]
   },
@@ -89,35 +189,20 @@
         "name": "Free",
         "price": "$0",
         "priceDetails": "for one user",
-        "features": [
-          "1 user",
-          "Basic Support",
-          "1 GB of storage",
-          "Email support"
-        ]
+        "features": ["1 user", "Basic Support", "1 GB of storage", "Email support"]
       },
       {
         "name": "Pro",
         "price": "$15",
         "priceDetails": "per user",
 
-        "features": [
-          "5 users",
-          "Priority Support",
-          "10 GB of storage",
-          "Phone and Email support"
-        ]
+        "features": ["5 users", "Priority Support", "10 GB of storage", "Phone and Email support"]
       },
       {
         "name": "Enterprise",
         "price": "$29",
         "priceDetails": "per user",
-        "features": [
-          "50 users",
-          "24/7 Support",
-          "100 GB of storage",
-          "Phone and Email support"
-        ]
+        "features": ["50 users", "24/7 Support", "100 GB of storage", "Phone and Email support"]
       }
     ]
   },

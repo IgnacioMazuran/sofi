@@ -26,3 +26,20 @@ a:hover {
 .content ul {
   @apply my-6;
 }
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Full height of the viewport */
+  background-color: #f4f4f4; /* Optional background color */
+}
+
+/* Styling the iframe to control size */
+.video-wrapper iframe {
+  width: 640px; /* Smaller width */
+  height: 360px; /* Smaller height */
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for aesthetics */
+  border-radius: 8px; /* Optional rounded corners */
+}
