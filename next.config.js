@@ -8,6 +8,8 @@ module.exports = {
   basePath: '',
   reactStrictMode: true,
   output: 'export',
+  basePath: '/sofi', // Cambia esto al nombre de tu repositorio en GitHub
+  assetPrefix: '/sofi',
   // Comentamos la línea para desactivar el bundle analyzer por ahora
   // ...withBundleAnalyzer({
 };
